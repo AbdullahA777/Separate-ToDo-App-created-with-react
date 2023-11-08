@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+.fazool{
+  height: 100px;
+}
+.Container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(17, 2, 43), rgb(102, 21, 102));
+}
+.todo-app{
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  background-color: #fff;
+  margin:  auto;
+  padding: 20px 10px 40px 40px;
+  border-radius: 10px;
+}
+.todo-app h2{
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+
+.row {
+  display: flex;
+  margin: 10px 0px;
+  width: 450px;
+  background-color: #bebbbb;
+  border-radius: 30px;
+}
+
+.row input{
+  flex: 1;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+.row button{
+  outline: none;
+  border: none;
+  background-color: rgb(102, 21, 102);
+  color: white;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+
+.tasks {
+  margin: 20px 5px 5px 80px;
+}
+ol li{
+  list-style: none;
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.through{
+  text-decoration: line-through;
+}
+.cross {
+  cursor: pointer;
+  font-size: 13px;
+  position: absolute;
+  left: 800px;
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  text-align: center;
+}
+.cross:hover {
+  background-color: #b6acac;
+}   
